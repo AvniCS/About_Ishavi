@@ -4,9 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ishavi Gupta - AI/ML Engineer</title>
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         
@@ -89,13 +86,19 @@
         }
 
         .contact-item {
-            background: rgba(100, 149, 237, 0.1);
+            background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(100, 149, 237, 0.25));
             padding: 12px 15px;
-            border: 1px solid #6495ed;
+            border: 2px solid #6495ed;
+            border-radius: 8px;
+            backdrop-filter: blur(10px);
+            box-shadow: 
+                0 4px 15px rgba(100, 149, 237, 0.2),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
             transition: all 0.3s ease;
             cursor: pointer;
             font-family: 'Orbitron', monospace;
             font-size: clamp(0.7rem, 2.5vw, 0.9em);
+            font-weight: 500;
             position: relative;
             overflow: hidden;
             word-break: break-word;
@@ -117,19 +120,26 @@
         }
 
         .contact-item:hover {
-            background: rgba(100, 149, 237, 0.2);
+            background: linear-gradient(135deg, rgba(100, 149, 237, 0.4), rgba(138, 43, 226, 0.3));
             transform: scale(1.05);
-            box-shadow: 0 0 20px rgba(100, 149, 237, 0.5);
+            box-shadow: 
+                0 8px 25px rgba(100, 149, 237, 0.4),
+                inset 0 1px 0 rgba(255, 255, 255, 0.2);
+            border-color: #dda0dd;
         }
 
         .contact-item a {
-            color: #87ceeb;
+            color: #ffffff;
             text-decoration: none;
             word-break: break-all;
+            font-weight: 600;
+            text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
         }
 
         .contact-item span {
-            color: #87ceeb;
+            color: #ffffff;
+            font-weight: 600;
+            text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
         }
 
         .section {
@@ -787,3 +797,4 @@
     </script>
 </body>
 </html>
+
